@@ -31,7 +31,7 @@ a.externo::after {
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
-    min-width: 439px; /*Não estava no curso*/
+    min-width: 437px; /*Não estava no curso*/
     text-align: center;
     padding-top: 40px;
     padding-bottom: 10px;
@@ -43,8 +43,9 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    padding-left: 3px;
-    padding-right: 3px;
+    min-width: 427px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
 }
 header > p {
     font-family: var(--fonte-padrao);
@@ -61,7 +62,7 @@ nav {
     padding: 10px;
     /*font-size: .8em; /*Não estava no curso*/
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-    min-width: 419px; /*Não estava no curso*/
+    min-width: 417px; /*Não estava no curso*/
 }
 nav a {
     color: white;
@@ -86,12 +87,13 @@ nav a:hover {
     Não foi passado no curso
 
     #####################################################    */
-div {
+div.div-main {
     margin: auto;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 387px;
     padding-left: 20px;
-    padding-right: 20px;}
+    padding-right: 20px;
+}
 /*  #####################################################
     
     Essa DIV foi acrescentada
@@ -204,7 +206,7 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-    min-width: 427px; /*Não estava no curso*/}
+    min-width: 423px; /*Não estava no curso*/}
 footer a {
     color: white;
     font-weight: bolder;
